@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroductionMachineLearningActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginRight="106dp"
+            android:text="Unit - 01 (Introduction) "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="1.1 Basic definitions"
+            android:textColor="#F61909"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/at_a_high_level_machine_learning_is_simply_the_study_of_teaching_a_computer_programme_or_algorithm_how_to_gradually_improve_upon_a_set_task_that_it_is_given_on_the_research_side_of_things_machine_learning_can_be_seen_through_the_prism_of_theoretical_and_mathematical_simulation_of_how_this_method_works_however_more_technically_it_is_the_study_of_how_to_construct_applications_that_exhibit_this_iterative_progress_machine_learning_is_an_application_of_artificial_intelligence_ai_that_gives_machines_the_opportunity_to_learn_from_their_experiences_and_develop_themselves_without_doing_any_coding_machine_learning_is_a_branch_of_artificial_intelligence_machine_learning_is_the_study_of_making_machines_more_human_like_in_their_actions_and_decisions_by_allowing_them_the_ability_to_learn_and_create_their_own_programmes_this_is_achieved_with_minimal_human_interference_i_e_no_explicit_programming_the_learning_process_is_automated_and_enhanced_based_on_the_experiences_of_the_machines_in_the_process_there_are_seven_steps_of_machine_learning_1_gathering_data_2_preparing_that_data_3_choosing_a_model_4_training_5_evaluation_6_hyperparameter_tuning_7_prediction_key_takeaway_machine_learning_is_an_application_of_artificial_intelligence_ai_that_gives_machines_the_opportunity_to_learn_from_their_experiences_and_develop_themselves_without_doing_any_coding_on_the_research_side_of_things_machine_learning_can_be_seen_through_the_prism_of_theoretical_and_mathematical_simulation_of_how_this_method_works"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="1.2 Linear Algebra"
+            android:textColor="#F61909"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/linear_algebra_is_a_branch_of_mathematics_that_lets_you_concisely_define_coordinates_and_interactions_of_planes_in_higher_dimensions_and_perform_operations_on_them_think_of_it_as_an_extension_of_algebra_dealing_with_unknowns_over_an_infinite_number_of_dimensions_linear_algebra_is_about_operating_on_linear_systems_of_equations_linear_regression_is_an_example_y_ax_rather_than_dealing_with_scalars_we_start_working_with_matrices_and_vectors_vectors_are_actually_just_a_special_form_of_matrix_vectors_are_really_just_a_special_type_of_matrix_linear_algebra_finds_widespread_use_because_it_typically_parallelizes_extremely_well_further_to_that_most_linear_algebra_operations_can_be_implemented_without_messaging_passing_which_makes_them_amenable_to_mapreduce_implementations_if_i_was_to_persuade_you_to_learn_a_minimum_of_linear_algebra_to_boost_your_capabilities_in_machine_learning_it_would_be_the_following_3_topics_notation_learning_the_notation_can_let_you_read_algorithm_explanations_in_journals_books_and_websites_to_get_an_understanding_of_what_is_going_on_and_if_you_use_for_loops_rather_than_matrix_operations_at_least_you_will_be_able_to_piece_things_together_operations_working_at_the_next_stage_of_abstraction_in_vectors_and_matrices_will_make_it_simpler_this_can_refer_to_explanations_to_code_and_even_to_thought_learn_how_to_do_or_apply_basic_operations_like_combining_multiplying_inverting_transposing_etc_matrices_and_vectors_matrix_factorization_if_there_was_one_deeper_area_i_would_suggest_digging_into_over_any_other_it_would_be_matrix_factorization_specifically_matrix_deposition_methods_like_svd_and_qr_the_numerical_precision_of_computers_is_minimal_and_working_with_decomposed_matrices_helps_you_to_sidestep_a_lot_of_the_overflow_underflow_madness_that_can_result_linear_algebra_plays_a_requisite_role_in_machine_learning_due_to_vectors_availability_and_many_rules_to_manage_vectors_we_often_tackle_classifiers_or_regressor_problems_in_machine_learning_and_then_error_minimization_techniques_are_implemented_by_computing_from_real_value_to_expected_value_consequently_we_use_linear_algebra_to_manage_the_before_mentioned_sets_of_computations_linear_algebra_manages_vast_numbers_of_data_or_in_other_words_linear_algebra_is_the_basic_mathematics_of_data_these_are_some_of_the_fields_in_linear_algebra_that_we_use_in_machine_learning_ml_and_deep_learning_vector_and_matrix_system_of_linear_equations_vector_space_basis_also_these_are_the_fields_of_machine_learning_ml_and_deep_learning_where_we_apply_linear_algebra_s_methods_derivation_of_regression_line_linear_equation_to_predict_the_target_value_support_vector_machine_classification_svm_dimensionality_reduction_mean_square_error_or_loss_function_regularization_covariance_matrix_convolution_key_takeaway_linear_algebra_is_a_branch_of_mathematics_that_lets_you_concisely_define_coordinates_and_interactions_of_planes_in_higher_dimensions_and_perform_operations_on_them_linear_algebra_plays_a_requisite_role_in_machine_learning_due_to_vectors_availability_and_many_rules_to_manage_vectors"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a1"
+            android:textColor="@color/heading"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text6"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a2"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text7"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a3"
+            android:textColor="@color/heading"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text8"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a4"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/text9"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginRight="101dp"
+            android:src="@drawable/f1" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a5"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text10"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a6"
+            android:textColor="@color/heading"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text11"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a7"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/text12"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginRight="101dp"
+            android:src="@drawable/f2" />
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a8"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/text13"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginRight="101dp"
+            android:src="@drawable/f3" />
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a9"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text14"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a10"
+            android:textColor="@color/heading"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text15"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a11"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text16"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a12"
+            android:textColor="@color/heading"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text17"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/a13"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+        <Button
+            android:id="@+id/btnDownload"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/text18"
+            android:layout_marginTop="-2dp"
+            android:text="Download"
+            android:textColor="#000000"
+            android:background="@color/heading"
+            android:layout_centerHorizontal="true"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

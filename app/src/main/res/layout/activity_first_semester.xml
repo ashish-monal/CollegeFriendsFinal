@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstSemesterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Semester1English"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="English"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Semester1Chemistry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester1English"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Chemistry"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Semester1Programming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester1Chemistry"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Programming for Problem Solving"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/SemesterMath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester1Programming"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Mathematics"
+            android:textAlignment="gravity"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Semester1Workshop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/SemesterMath"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Workshop"
+            android:textStyle="bold" />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

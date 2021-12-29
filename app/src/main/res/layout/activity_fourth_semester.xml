@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthSemesterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Semester4DMath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="Discreate Mathematics"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Semester4COA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester4DMath"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Computer Organization and Architecture"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Semester4OperatingSystem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester4COA"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Operating System"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/Semester4DAA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester4OperatingSystem"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Design and Analysis of Algorithm"
+            android:textAlignment="gravity"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Semester4DigitalElectronics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester4DAA"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Digital Electronics"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Semester4HRD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester4DigitalElectronics"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Human Resource Development and Organization"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

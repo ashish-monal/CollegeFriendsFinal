@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComputerNetworkModule02Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="Unit - 02 (Data Link Layer And Medium Access Sub Layer)"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="1.1What is error correction and how it can be handled? "
+            android:textColor="@color/heading"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx1"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Q2) What is Hamming code and also write the algorithm of Hamming Code?"
+            android:textColor="@color/heading"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx2"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="205dp"
+            android:layout_height="122dp"
+            android:layout_below="@+id/text5"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="104dp"
+            android:layout_marginRight="104dp"
+            android:src="@drawable/cx1" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx3"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="209dp"
+            android:layout_height="165dp"
+            android:layout_below="@+id/text6"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginRight="92dp"
+            android:src="@drawable/cx2" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx4"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="194dp"
+            android:layout_height="139dp"
+            android:layout_below="@+id/text7"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="107dp"
+            android:layout_marginRight="107dp"
+            android:src="@drawable/cx3" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx5"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="194dp"
+            android:layout_height="132dp"
+            android:layout_below="@+id/text8"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="107dp"
+            android:layout_marginRight="107dp"
+            android:src="@drawable/cx4" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx6"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="204dp"
+            android:layout_height="165dp"
+            android:layout_below="@+id/text9"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="97dp"
+            android:layout_marginRight="97dp"
+            android:src="@drawable/cx5" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx7"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="209dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/text10"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginRight="92dp"
+            android:src="@drawable/cx6" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img6"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx8"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="197dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/text11"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="104dp"
+            android:layout_marginRight="104dp"
+            android:src="@drawable/cx7" />
+
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img7"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx9"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="209dp"
+            android:layout_height="97dp"
+            android:layout_below="@+id/text12"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginRight="92dp"
+            android:src="@drawable/cx8" />
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img8"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx10"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img9"
+            android:layout_width="195dp"
+            android:layout_height="87dp"
+            android:layout_below="@+id/text13"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginRight="106dp"
+            android:src="@drawable/cx9" />
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img9"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx11"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text14"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Q3) What are the different types of errors?"
+            android:textColor="@color/heading"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text15"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Types of Errors"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img10"
+            android:layout_width="206dp"
+            android:layout_height="178dp"
+            android:layout_below="@+id/text16"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginRight="95dp"
+            android:src="@drawable/cx10" />
+
+        <TextView
+            android:id="@+id/text17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img10"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx12"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+        <ImageView
+            android:id="@+id/img11"
+            android:layout_width="212dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/text17"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="89dp"
+            android:layout_marginRight="89dp"
+            android:src="@drawable/cx11" />
+
+        <TextView
+            android:id="@+id/text18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img11"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx13"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img12"
+            android:layout_width="206dp"
+            android:layout_height="93dp"
+            android:layout_below="@+id/text18"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginRight="95dp"
+            android:src="@drawable/cx12" />
+
+        <TextView
+            android:id="@+id/text19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img12"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx14"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text19"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Q4) What are Single parity check and two dimensional parity check?"
+            android:textColor="@color/heading"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text20"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Single Parity Check
+Single Parity checking is the simple mechanism and inexpensive to detect the errors.\n
+In this technique, a redundant bit is also known as a parity bit which is appended at the end of the data unit so that the number of 1s becomes even.\n Therefore, the total number of transmitted bits would be 9 bits.\n
+If the number of 1s bits is odd, then parity bit 1 is appended and if the number of 1s bits is even, then parity bit 0 is appended at the end of the data unit.\n
+At the receiving end, the parity bit is calculated from the received data bits and compared with the received parity bit.\n
+This technique generates the total number of 1s even, so it is known as even-parity checking.\n
+"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img13"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/text21"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginRight="101dp"
+            android:src="@drawable/cx13" />
+
+        <TextView
+            android:id="@+id/text22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img13"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Drawbacks Of Single Parity Checking
+It can only detect single-bit errors which are very rare.\n
+If two bits are interchanged, then it cannot detect the errors.\n
+"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img14"
+            android:layout_width="197dp"
+            android:layout_height="106dp"
+            android:layout_below="@+id/text22"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="104dp"
+            android:layout_marginRight="104dp"
+            android:src="@drawable/cx14" />
+
+        <TextView
+            android:id="@+id/text23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img14"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Two-Dimensional Parity Check
+Performance can be improved by using Two-Dimensional Parity Check which organizes the data in the form of a table.\n
+Parity check bits are computed for each row, which is equivalent to the single-parity check.\n
+In Two-Dimensional Parity check, a block of bits is divided into rows, and the redundant row of bits is added to the whole block.\n
+At the receiving end, the parity bits are compared with the parity bits computed from the received data.\n
+"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img16"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/text23"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginRight="101dp"
+            android:src="@drawable/cx16" />
+
+        <TextView
+            android:id="@+id/text24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img16"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx25"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text24"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Q5) What are checksum generator and checksum checker?"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text25"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Checksum\n
+A Checksum is an error detection technique based on the concept of redundancy.\n
+It is divided into two parts:\n
+Checksum Generator\n
+A Checksum is generated at the sending side.\n Checksum generator subdivides the data into equal segments of n bits each, and all these segments are added together by using one's complement arithmetic.\n The sum is complemented and appended to the original data, known as checksum field.\n The extended data is transmitted across the network.\n
+Suppose L is the total sum of the data segments, then the checksum would be ?L
+"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img17"
+            android:layout_width="223dp"
+            android:layout_height="103dp"
+            android:layout_below="@+id/text26"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginRight="78dp"
+            android:src="@drawable/cx17" />
+
+        <TextView
+            android:id="@+id/text27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img17"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx05"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text27"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Q6) Explain cyclic redundancy check with examples.\n"
+            android:textColor="@color/heading"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text28"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx06"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img18"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text29"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx18" />
+
+        <TextView
+            android:id="@+id/text30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img18"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx15"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+
+        <ImageView
+            android:id="@+id/img19"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text30"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx19" />
+
+        <TextView
+            android:id="@+id/text31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img19"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx16"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img20"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text31"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx20" />
+
+        <TextView
+            android:id="@+id/text32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img20"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Q7) What are the different types of error controlling code explain?"
+            android:textColor="@color/heading"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text32"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx17"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+
+        <ImageView
+            android:id="@+id/img21"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text25"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx21" />
+
+        <TextView
+            android:id="@+id/text34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img21"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="If the message is not altered, then it is called as systematic code.\n It means, the encryption of the data should not change the data.\n
+Convolution Codes
+So far, in the linear codes, we have discussed that systematic unaltered code is preferred.\n Here, the data of total n bits if transmitted, k bits are message bits and n−k
+bits are parity bits.\n
+In the process of encoding, the parity bits are subtracted from the whole data and the message bits are encoded.\n Now, the parity bits are again added and the whole data is again encoded.\n
+The following figure quotes an example for blocks of data and stream of data, used for transmission of information.\n
+"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img22"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text34"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx22" />
+
+        <TextView
+            android:id="@+id/text35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img22"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx18"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text35"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Q8) What is stop and wait protocol and what are its primitives?"
+            android:textColor="@color/heading"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text36"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx19"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text37"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx21"
+            android:textColor="@color/heading"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text38"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Disadvantages of Stop and Wait protocol\n
+The following are the problems associated with a stop and wait protocol:\n
+1. Problems occur due to lost data\n
+"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img23"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text39"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx22" />
+
+        <TextView
+            android:id="@+id/text40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img23"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Suppose the sender sends the data and the data is lost.\n The receiver is waiting for the data for a long time.\n Since the data is not received by the receiver, so it does not send any acknowledgment.\n Since the sender does not receive any acknowledgment so it will not send the next packet.\n This problem occurs due to the lost data.\n
+In this case, two problems occur:\n
+Sender waits for an infinite amount of time for an acknowledgment.\n
+Receiver waits for an infinite amount of time for a data.\n
+
+2.Problems occur due to lost acknowledgment\n
+"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img24"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text40"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx23" />
+
+        <TextView
+            android:id="@+id/text41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img24"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Suppose the sender sends the data and it has also been received by the receiver.\n On receiving the packet, the receiver sends the acknowledgment.\n In this case, the acknowledgment is lost in a network, so there is no chance for the sender to receive the acknowledgment.\n There is also no chance for the sender to send the next packet as in stop and wait protocol, the next packet cannot be sent until the acknowledgment of the previous packet is received.\n
+In this case, one problem occurs:
+Sender waits for an infinite amount of time for an acknowledgment.\n
+3. Problem due to the delayed data or acknowledgment
+"
+
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img25"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text41"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx26" />
+
+        <TextView
+            android:id="@+id/text42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img25"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Suppose the sender sends the data and it has also been received by the receiver.\n The receiver then sends the acknowledgment but the acknowledgment is received after the timeout period on the sender's side.\n As the acknowledgment is received late, so acknowledgment can be wrongly considered as the acknowledgment of some other data packet.\n
+"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/text43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img25"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Q10) What is Go-Back-N ARQ and explain its working?"
+            android:textSize="18sp"
+            android:textColor="@color/heading"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/text44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text43"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/cx26"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img26"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text44"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx27" />
+        <TextView
+            android:id="@+id/text45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img26"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Let's assume that the receiver has sent the acknowledgment for the 0 frame, and the receiver has successfully received it.\n"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img27"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text33"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx28" />
+        <TextView
+            android:id="@+id/text46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img27"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="The sender will then send the next frame, i.\ne.\n, 4, and the window slides containing four frames (1,2,3,4).\n"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img28"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text46"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx29" />
+        <TextView
+            android:id="@+id/text47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img28"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="The receiver will then send the acknowledgment for the frame no 1.\n After receiving the acknowledgment, the sender will send the next frame, i.\ne.\n, frame no 5, and the window will slide having four frames (2,3,4,5).\n"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img29"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text47"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx30" />
+        <TextView
+            android:id="@+id/text48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img29"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Now, let's assume that the receiver is not acknowledging the frame no 2, either the frame is lost, or the acknowledgment is lost.\n Instead of sending the frame no 6, the sender Go-Back to 2, which is the first frame of the current window, retransmits all the frames in the current window, i.\ne.\n, 2,3,4,5.\n"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/img30"
+            android:layout_width="180dp"
+            android:layout_height="151dp"
+            android:layout_below="@+id/text48"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginRight="121dp"
+            android:src="@drawable/cx30" />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

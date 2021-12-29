@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MachineLearningActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/MachineIntroduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="Introduction"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/MachineStaticDecisionTheory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MachineIntroduction"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Statistical Decisionl Theory"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/MachineLinearClassification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Linear Classification"
+            android:textStyle="bold"
+            android:layout_below="@+id/MachineStaticDecisionTheory"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/MachineHypothesis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Hypothesis Testing"
+            android:textAlignment="gravity"
+            android:textStyle="bold"
+            android:layout_below="@+id/MachineLinearClassification"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/MachineException"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Expectation Maximisation"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/MachineHypothesis"/>
+
+    </RelativeLayout>
+</ScrollView>

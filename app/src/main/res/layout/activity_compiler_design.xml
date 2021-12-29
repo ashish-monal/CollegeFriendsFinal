@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompilerDesignActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/CompilerDesignIntroduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="Introduction"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/CompilerDesignSyntaxAnalysis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CompilerDesignIntroduction"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="Syntax Analysis Parser"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/CompilerDesignSementicAnalysis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CompilerDesignSyntaxAnalysis"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="Sementic Analysis"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/CompilerDesignIntermediateCodeGeneration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CompilerDesignSementicAnalysis"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="Intermediate Code Generation"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/CompilerDesignAdvanceTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CompilerDesignIntermediateCodeGeneration"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="Advance Topics"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</ScrollView>

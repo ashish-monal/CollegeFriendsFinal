@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GraphTheoryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/ComputerNetworkDataCommunicationComponent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="Data Communication Component"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ComputerNetworkDataLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ComputerNetworkDataCommunicationComponent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Data Link + Medium Access Sub Layer"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ComputerNetworkNetworkLayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ComputerNetworkDataLink"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Network Layer"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/ComputerNetworkTransportNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ComputerNetworkNetworkLayer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Transport Network"
+            android:textAlignment="gravity"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ComputerNetworkApplicationLayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ComputerNetworkTransportNetwork"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Application Layer"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

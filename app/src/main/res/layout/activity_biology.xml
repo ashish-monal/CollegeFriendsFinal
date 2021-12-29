@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BiologyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/BiologyIntroduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="Introduction"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BiologyClassification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BiologyIntroduction"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Classification"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BiologyGenetics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BiologyClassification"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Genetics"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/BiologyBiomolecules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BiologyGenetics"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Biomolecules"
+            android:textAlignment="gravity"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BiologyEnzymes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BiologyBiomolecules"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Enzymes"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BiologyInformationTransfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:layout_below="@id/BiologyEnzymes"
+            android:text="Information Transfer"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BiologyMacroMolecules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BiologyInformationTransfer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Macromolecules Analysis"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BiologyMetabolism"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BiologyMacroMolecules"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Metabolism"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/BiologyMicrobiology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BiologyMetabolism"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Microbiology"
+            android:textAlignment="gravity"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

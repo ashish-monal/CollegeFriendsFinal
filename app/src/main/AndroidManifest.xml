@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.collegefriends">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CollegeFriends">
+        <activity
+            android:name=".Semester5ProfessionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester5SoftwareDevelopmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester5ArtificialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester5FormalLanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester5DataBaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester4HrdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester4DigitalElectronicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester4DAaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester4OperatingSystemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester4CoaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester4DMathActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester3AnalogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester3TechnicalWritingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester3Math3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Semseter3OopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester3DsaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester2PhysicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester2Math2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester2EdgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester2BeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester1ProgrammingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester1ChemistryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester1WorkshopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Semester1Math"
+            android:exported="false" />
+        <activity
+            android:name=".EnglishSemester01Activity"
+            android:exported="false" />
+        <activity
+            android:name=".FiftSemesterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FourthSemesterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdSemesterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondSemesterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstSemesterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EightSemesterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CyberSecurityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DataScienceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SoftSkillActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BiologyModule09Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BiologyModule08Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BiologyModule07Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BiologyModule06Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BiologyModule05Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BiologyModule04Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BiologyModule03Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BilogyModule02Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BilogyModule01Activity"
+            android:exported="false" />
+        <activity
+            android:name=".BiologyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SevenSemesterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GraphTheoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComputerNetworkModule05Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ComputerNetworkModule04Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ComputerNetworkModule03Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ComputerNetworkModule02Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ComputerNetworkModule01Avtivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComputerNetworkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompilerDesignAdvanceTopicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompilerDesignIntermediateCodeGenerationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompilerDesignSementicAnalysisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompilerDesignSyntaxAnalysisParser"
+            android:exported="false" />
+        <activity
+            android:name=".CompilerDesignIntroductionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompilerDesignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MachineLearningExpectationMaximisation"
+            android:exported="false" />
+        <activity
+            android:name=".MachineLearningHypothesisTesting"
+            android:exported="false" />
+        <activity
+            android:name=".MachineLearningLinearClassificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MachineStaticDecisionTheory"
+            android:exported="false" />
+        <activity
+            android:name=".IntroductionMachineLearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SixSemesterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MachineLearningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplaceScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

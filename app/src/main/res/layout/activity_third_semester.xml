@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdSemesterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Semester3DSA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_button"
+            android:text="Data Structure and Algorithms"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Semester3OOps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester3DSA"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_button"
+            android:text="Object Oriented Programming using C++"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/Semester3Math"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester3OOps"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_button"
+            android:text="Mathematics - III (Differential Calculas)"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/Semester3TW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester3Math"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_button"
+            android:text="Technical Writing"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Semester3Analog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Semester3TW"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_button"
+            android:text="Analog Electronics Circuits"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
